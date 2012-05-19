@@ -1,0 +1,29 @@
+Tab Control for gedit
+=====================
+Minimalistic gedit 3.x plugin that lets you switch tabs with `Ctrl (+ shift) + Tab` and close tabs with `Ctrl + F4`.
+This plugin is very simple and easy to customize, if you need an extra shortcut, prefer to access your tabs at random or whatever...
+
+If you want the `Ctrl + Tab` to switch tabs based on most recently accessed, like `Alt + Tab`,
+instead of taking next tab by position as Firefox, have a look at [ControlYourTabs](https://github.com/jefferyto/gedit-control-your-tabs/) by Jeffery To.
+
+Installation
+------------
+Save the `TabControl.plugin` and `TabControl.py` in `~/.local/share/gedit/plugins/`.
+Restart gedit, and activate the "TabControl" plugin in "Edit > Preferences".
+
+
+Related Plugins
+---------------
+_Other plugins offering very similar features, enjoy them if you find them better._
+
+[ControlYourTabs](https://github.com/jefferyto/gedit-control-your-tabs/) by Jeffery To is a more comprehensive gedit 3.x plugin, that remembers the order of tab access when switching with `Ctrl + Tab` and offers more shortcuts.
+
+[TabSwitch](http://live.gnome.org/Gedit/Plugins?action=AttachFile&do=get&target=tabswitch.tar.gz) by Elia Sarti is a gedit 2.x plugin for switching tabs with `Ctrl + Tab`.
+
+License
+-------
+This plugin is available under [GNU GPlv3](http://www.gnu.org/licenses/gpl.html).
+
+Authors
+-------
+  * Jonas Finnemann Jensen <jopsen@gmail.com>
