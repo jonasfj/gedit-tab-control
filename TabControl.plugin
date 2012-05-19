@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python
+Module=TabControl
+IAge=3
+Name=TabControl
+Description=Ctrl (+ Shift) + Tab to switch tabs, Ctrl + F4 to close tabs
+Authors=Jonas Finnemann Jensen <jopsen@gmail.com>
+Copyright=Copyright © 2012, Jonas Finnemann Jensen
+Website=http://jopsen.dk/blog
+Version=0.1.0
