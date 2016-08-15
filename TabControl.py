@@ -24,12 +24,10 @@ class TabControl(GObject.Object, Gedit.WindowActivatable):
 		GObject.Object.__init__(self)
 
 	def do_activate(self):
-		conn_id = self.window.connect("key-press-event", self.key_press)
-		self.window.set_data(self.__gtype_name__ + "/key-press-event", conn_id)
+		self.conn_id = self.window.connect("key-press-event", self.key_press)
 
 	def do_deactivate(self):
-		conn_id = self.window.get_data(self.__gtype_name__ + "/key-press-event")
-		self.window.disconnect(conn_id)
+		self.window.disconnect(self.conn_id)
 
 	def do_update_state(self):
 		pass

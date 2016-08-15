@@ -1,5 +1,5 @@
 [Plugin]
-Loader=python
+Loader=python3
 Module=TabControl
 IAge=3
 Name=TabControl
@@ -7,4 +7,4 @@ Description=Ctrl (+ Shift) + Tab to switch tabs, Ctrl + F4 to close tabs
 Authors=Jonas Finnemann Jensen <jopsen@gmail.com>
 Copyright=Copyright © 2012, Jonas Finnemann Jensen
 Website=http://jonasfj.dk/blog/2012/05/tabcontrol-plugin-for-switching-tabs-in-gedit/
-Version=0.1.0
+Version=0.2.0
